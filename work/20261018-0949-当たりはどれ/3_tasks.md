@@ -12,8 +12,8 @@
 - [x] `src/games/atari/index.ts`：`MiniGame` オブジェクトを `register()` で登録（id: `atari`、作者: 仮名「なぞ味のちゃぼ」）
 - [x] `src/games/index.ts` に atari の import を1行追加
 - [x] ローカルで動作確認（一覧 → 「当たりはどれ？」を選ぶ → 20秒プレイ → 結果 → もう一回、`/games/atari` 直接アクセス）
-- [ ] コミットして push し、PR を作る（ユーザーの指示を受けてから）
-- [ ] ラップアップ（`/wrapup` を実行する）
+- [x] コミットして push し、PR を作る（ユーザーの指示を受けてから）
+- [x] ラップアップ（`/wrapup` を実行する）
 
 ## 品質チェック
 

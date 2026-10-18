@@ -1,6 +1,6 @@
 import { COLORS, createState, remainingSeconds, start, tapTile, update } from './rules.ts'
 
-describe('当たりはどれ？のルール', () => {
+describe('反射神経チェックのルール', () => {
   it('スタート前はタップしても変わらない', () => {
     const state = tapTile(createState(), 0, 0)
     expect(state.score).toBe(0)

@@ -4,7 +4,7 @@ import { AtariGame } from './AtariGame.tsx'
 register({
   id: 'atari',
   title: '反射神経チェック',
-  author: 'ITO',
+  author: 'IKA',
   description: '当たりの色のタイルを、時間内にいくつタップできるかな？',
   Component: AtariGame,
 })
